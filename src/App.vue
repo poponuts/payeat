@@ -6,7 +6,7 @@ import CameraScanner from "./components/CameraScanner.vue";
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <h1>Vue Barcode Reader Demo</h1>
+  <h1>Pay Eat Project</h1>
   <CameraScanner />
 </template>
 

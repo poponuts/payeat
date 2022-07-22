@@ -17,8 +17,10 @@ const onDecode = (text) => {
   <StreamBarcodeReader @decode="onDecode" @loaded="onLoaded"></StreamBarcodeReader>
   <h2>The decoded value in QR/barcode is</h2>
   <h2>{{ decodedText }}</h2>
-
-  <p class="information">
+  <p>
+  <strong>Gawa tayo using Python!!! https://betterprogramming.pub/how-to-generate-and-decode-qr-codes-in-python-a933bce56fd0</strong>
+  </p>
+  <!-- <p class="information">
     <strong>Github:</strong>
     <a href="https://github.com/olefirenko/vue-barcode-reader" target="_blank"> https://github.com/olefirenko/vue-barcode-reader</a>
   </p>
@@ -29,7 +31,7 @@ const onDecode = (text) => {
   <p>
     Check <strong>vue-barcode-reader</strong> library in production at
     <a href="https://parceltrackingapp.com/en" target="_blank">ParcelTrackingApp.com</a>
-  </p>
+  </p> -->
 </template>
 
 <style scoped>
